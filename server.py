@@ -1,7 +1,7 @@
 import time
 
 from fastapi import FastAPI, Request
-from lib.openai import revalidate, query
+from openai_config import revalidate, query
 from fastapi.middleware.cors import CORSMiddleware
 
 
